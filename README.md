@@ -3,6 +3,7 @@ Create a Recommender System to show personalized movie recommendations based on 
 
 
 Dataset: https://drive.google.com/drive/folders/1RY4RG7rVfY8-0uGeOPWqWzNIuf-iosuv
+
 Data Dictionary:
 RATINGS FILE DESCRIPTION
 =========================================================================
@@ -50,6 +51,7 @@ o	17: "technician/engineer"
 o	18: "tradesman/craftsman"
 o	19: "unemployed"
 o	20: "writer"
+
 MOVIES FILE DESCRIPTION
 =========================================================================
 Movie information is in the file "movies.dat" and is in the following format:
@@ -74,12 +76,14 @@ o	Sci-Fi
 o	Thriller
 o	War
 o	Western
+
 Concepts Tested:
 •	Recommender Engine
 •	Collaborative Filtering (Item-based & User-based Approach)
 •	Pearson Correlation
 •	Nearest Neighbors using Cosine Similarity
 •	Matrix Factorization
+
 What does “good” look like?
 •	Reading the data files, formatting them into a proper workable format and merging the data files into one single dataframe
 Eg: pd.read_fwf('../input/zeemovie/movies.dat', encoding='ISO-8859-1'
@@ -138,6 +142,7 @@ Evaluation Criteria (100 points)
 3.	Use embeddings for visualization and similarity-based models.
 6.	Build a Recommender System based Pearson Correlation. (Optional)
 1.	Use the User-based approach to create a recommender system that uses Pearson Correlation
+2.	
 Questionnaire:
 1.	Users of which age group have watched and rated the most number of movies?
 2.	Users belonging to which profession have watched and rated the most movies?
